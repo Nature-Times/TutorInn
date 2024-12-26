@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="{{ asset('js/applyTutor.js') }}"></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Kameron" />
-    <link rel="stylesheet" href="{{ URL::asset('css/applyTutor.css' )}}">
+    <link rel="stylesheet" href="css/applyTutor.css">
   </head>
   <body>
 
