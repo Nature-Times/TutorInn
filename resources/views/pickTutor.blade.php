@@ -6,7 +6,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>TutorInn</title>
-    <link rel="stylesheet" href='css/FindYourTutor.css' />
+    <link rel="stylesheet" href="{{ asset("css/FindYourTutor.css") }}" />
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css?family=Kameron"
@@ -27,7 +27,7 @@
     <p class="pick-tutor-title">Pick Your Tutor</p>
     <div class="buttons-line">
       <button class="back-button">
-        <a href="{{ route('homepage') }}"><img src="{{ URL::asset('Element/arrow.png') }}" alt="" /></a>
+        <a href="{{ route('homepage') }}"><img src="{{ asset('Element/arrow.png') }}" alt="" /></a>
       </button>
     </div>
 
