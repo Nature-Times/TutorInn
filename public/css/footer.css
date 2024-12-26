@@ -1,0 +1,61 @@
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #6d4c41; /* Footer background color */
+    color: #f9f5e6; /* Footer text color */
+    padding: 20px 10px;
+    flex-wrap: wrap; /* Ensures responsiveness */
+  }
+  
+  .footerLogo {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .TutorInnLogo {
+    width: 120px; /* Adjust size as needed */
+    height: auto;
+  }
+  
+  .contactUs, .location, .socialMedia {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .contactText, .locationText, .socmedText {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .contactIcon img, .locationIcon, .socialMediaIcon img {
+    width: 40px; /* Adjust size of icons */
+    height: 40px;
+    margin: 5px;
+    object-fit: contain;
+  }
+  
+  .socialMediaIcon {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .contactIcon {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  @media (max-width: 768px) {
+    .footer {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .footerLogo, .contactUs, .location, .socialMedia {
+      margin-bottom: 20px;
+    }
+  }
+  

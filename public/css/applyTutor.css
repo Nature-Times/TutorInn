@@ -1,0 +1,303 @@
+body {
+  font-family: "Kameron", serif;
+  background-color: #FFFBE9 !important;
+  margin: 0;
+  padding: 0;
+}
+
+.arrow{
+  margin-left: 10%;
+  background-color: #8d6e63;
+  width: 5%;
+  display: flex;
+  align-items: center;
+  padding: 1%;
+  border-radius: 50%;
+}
+
+.afterSubject {
+  width: 28%;
+}
+
+h1 {
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.tutor-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; /* Allows wrapping if needed */
+  gap: 15px; /* Adds space between cards */
+  justify-content: center; 
+}
+
+.tutor-card {
+  flex: 0 0 auto; /* Prevents shrinking/growing */
+  width: 150px; /* Fixed width for uniformity */
+  padding: 10px; /* Space inside the card */
+  text-align: center; /* Center text */
+  background-color: #f5e9d7; /* Light beige background */
+  border-radius: 12px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Soft shadow effect */
+  transition: transform 0.2s, box-shadow 0.2s; /* Smooth hover effect */
+}
+
+.tutor-card:hover {
+  transform: scale(1.05); /* Slightly enlarges card on hover */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Darker shadow on hover */
+}
+
+.avatar {
+  width: 80px; /* Size of avatar */
+  height: 80px; /* Ensure it’s a square */
+  border-radius: 50%; /* Makes it circular */
+  border: 3px solid #8a4f1b; /* Brown border around the avatar */
+  object-fit: cover; /* Ensures the image fits properly */
+  margin-bottom: 10px; /* Space below avatar */
+}
+
+.tutor-card p {
+  font-family: 'Kameron', serif; /* Matches the font style */
+  font-size: 16px; /* Adjust text size */
+  color: #333; /* Dark gray text */
+}
+
+.containerBox {
+  width: 90%;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.apply {
+  font-size: 2.5em;
+  color: #6d4c41;
+  margin-bottom: 20px;
+}
+
+.arrow img {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+
+h1.pick {
+  font-size: 1.5em;
+  color: #6d4c41;
+  margin: 30px 0 10px;
+}
+
+.input {
+  margin-top: 20px;
+}
+
+.top {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.lesson {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.lesson input[type="radio"] {
+  margin-right: 10px;
+}
+
+.lesson div#text {
+  font-size: 1.2em;
+  color: #6d4c41;
+}
+
+h1.username, h1.resume {
+  font-size: 1.2em;
+  color: #6d4c41;
+  margin-top: 20px;
+  text-align: left;
+  margin-left: 5%;
+}
+
+.user input[type="text"] {
+  width: 90%;
+  padding: 10px;
+  margin: 10px auto;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1em;
+}
+
+.customButton input[type="file"] {
+  display: block;
+  margin: 10px auto;
+  padding: 10px;
+  background-color: #e0f7fa;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button#submitting {
+  background-color: #6d4c41;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1em;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background-color 0.3s ease;
+}
+
+button#submitting:hover {
+  background-color: #8d6e63;
+}
+
+body {
+  font-family: "Kameron", serif;
+  background-color: #f9f5e6;
+  margin: 0;
+  padding: 0;
+}
+
+.containerBox {
+  width: 90%;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+h1.apply {
+  font-size: 2.5em;
+  color: #6d4c41;
+  margin-bottom: 20px;
+}
+
+.arrow img {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+
+h1.pick {
+  font-size: 1.5em;
+  color: #6d4c41;
+  margin: 30px 0 10px;
+}
+
+.input {
+  margin-top: 20px;
+}
+
+.top {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.lesson {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.lesson input[type="radio"] {
+  margin-right: 10px;
+}
+
+.lesson div#text {
+  font-size: 1.2em;
+  color: #6d4c41;
+}
+
+h1.username, h1.resume {
+  font-size: 1.2em;
+  color: #6d4c41;
+  margin-top: 20px;
+  text-align: left;
+  margin-left: 5%;
+}
+
+.user input[type="text"] {
+  width: 90%;
+  padding: 10px;
+  margin: 10px auto;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1em;
+}
+
+.customButton input[type="file"] {
+  display: block;
+  margin: 10px auto;
+  padding: 10px;
+  background-color: #e0f7fa;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button#submitting {
+  background-color: #6d4c41;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1em;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background-color 0.3s ease;
+}
+
+button#submitting:hover {
+  background-color: #8d6e63;
+}

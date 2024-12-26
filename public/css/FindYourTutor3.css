@@ -1,0 +1,19 @@
+.tutor-items{
+    justify-content: space-between;
+    padding-top: 3%;
+    padding-bottom: 2%;
+    align-items: center;
+}
+
+.tutor-line{
+    justify-content: space-around;
+}
+
+.profileOthers{
+    border-radius: 50px;
+    align-items: center;
+}
+
+body{
+    font-family: "Kameron";
+}
