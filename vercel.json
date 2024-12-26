@@ -17,6 +17,10 @@
         {
             "src": "/(.*)",
             "dest": "/api/index.php"
+        },
+        {
+            "src": "/Element/(.*)",
+            "dest": "public/Element/"
         }
     ],
     "env": {
