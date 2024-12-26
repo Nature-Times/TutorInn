@@ -13,15 +13,15 @@
         },
         {
             "src": "/Element/(.*)",
-            "dest": "public/Element/"
+            "dest": "api/Element/"
         },
         {
             "src": "/css/(.*)",
-            "dest": "public/css/"
+            "dest": "api/css/"
         },
         {
             "src": "/js/(.*)",
-            "dest": "public/js/"
+            "dest": "api/js/"
         }
     ],
     "env": {
