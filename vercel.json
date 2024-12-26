@@ -53,7 +53,6 @@
         "DB_PASSWORD":"d0a19cb2224adcf9b9d73b1487bc367444ceaca5",
 
         "GOOGLE_DRIVE_CLIENT_ID": "632715905824-qst6ugsafrj25fvkbc7qhmpbn73d93ce.apps.googleusercontent.com",
-        "GOOGLE_DRIVE_CLIENT_SECRET": "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",
-        "GOOGLE_DRIVE_REFRESH_TOKEN": "placeholder"
+        "GOOGLE_DRIVE_CLIENT_SECRET": "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"
     }
 }
