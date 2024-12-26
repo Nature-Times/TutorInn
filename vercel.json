@@ -9,7 +9,7 @@
             "src": "/(.*)",
             "dest": "/api/index.php"
         },
-        { "src": "/Element/(.*)", "dest": "/public/Element/" },
+        { "src": "/Element/(.*)", "dest": "/public/Element/" }
     ],
     "env": {
         "APP_ENV": "production",
