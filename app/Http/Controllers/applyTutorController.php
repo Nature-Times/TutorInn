@@ -74,9 +74,6 @@ class applyTutorController extends Controller
     }
 
     public function uploadVideo(Request $request){
-        $validated = $request->validate([
-            'video' =>  'required|file|mimes:mp4,avi,mov,flv|max:102400',
-        ]);
 
         $user = Auth::user()->load('phones');
         $test = Test::where('name', $user->name)->first();
