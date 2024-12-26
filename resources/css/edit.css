@@ -1,0 +1,88 @@
+/* General Styles */
+body {
+    font-family: 'Kameron', serif;
+    background-color: #FDF4E3;
+    margin: 0;
+    padding: 0;
+    color: #5C3A2D;
+}
+
+/* Profile Card */
+.containerBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 200px;
+    min-height: calc(100vh - 80px);
+    padding: 2rem;
+}
+
+.box {
+    padding-top: 100px;
+    background-color: #F1DEC9;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    width: 400px;
+}
+
+.box h1 {
+    font-size: 2rem;
+    color: #5C3A2D;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.box img {
+    display: block;
+    margin: 0 auto;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #D9C4B0;
+}
+
+.box p {
+    font-size: 1rem;
+    margin: 0.5rem 0;
+}
+
+.box hr {
+    border: none;
+    border-top: 1px solid #D9C4B0;
+    margin: 1rem 0;
+}
+
+/* Input Fields */
+.box input[type="text"] {
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid #D9C4B0;
+    border-radius: 5px;
+}
+
+/* Buttons */
+.box button {
+    background-color: #5C3A2D;
+    color: #FDF4E3;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem 1.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.box button:hover {
+    background-color: #3E2A1E;
+}
+
+.box .back {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-top: 1rem;
+    padding: 0.5rem;
+}

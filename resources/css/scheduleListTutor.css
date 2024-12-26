@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css?family=Kameron");
+body {
+    background-color: #fffbe9;
+    /* background: url(circle.png); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding-top: 200px;
+    padding-bottom: 200px;
+  }
+  
+  .containerBox{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 7% 15% 15% 15%;
+  }
+
+
+
+ 
+/* ------------------------------------------------------------------------------------------------------*/
+
+.back img{
+    width: 2.5vw;
+    margin-top: 0.5vw;
+}
+
+.back{
+    font-weight: bold;
+    font-family: 'Kameron';
+    font-size: 2vw;
+    width: 4vw;
+    height: 4vw;
+    background-color: #e5cfbc;
+    border: none;
+    border-radius: 10px;
+    margin-left: 7%;
+    margin-top: 5%;
+  }
+
+  .Schedule_Student{
+    background-color:#e5cfbc;
+    width: 88vw;
+    height: 90vw;
+    filter:drop-shadow(9px 4px 4px rgba(0,0,0,0.23000000417232513));
+    border-radius:19px;
+    margin: 1.25%;
+    margin-left: 7%;
+    margin-right: 7%;
+    margin-bottom: 2%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Kameron';
+    gap: 2vw;
+    padding-left: 3vw;
+    padding-top: 3vw;
+    padding-right: 3vw;
+    padding-bottom: 3vw;
+  }
+
+  .text{
+    font-weight: bold;
+    font-family: 'Kameron';
+    font-size: 3vw;
+  }
+
+  .subject{
+    width: 12vw;
+    font-weight: bold;
+  }
+
+  .date{
+    width: 13vw;
+    font-weight: bold;
+    font-size: 1.5vw;
+    padding-top: 0.3vw;
+  }
+
+  .subject_date{
+    display: flex;
+    flex-direction: row;
+    gap: 5vw;
+  }
+
+  .schedule_box{
+    background-color: #994C17;
+    width: 80vw;
+    height: 5vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    font-family: 'Kameron';
+    font-size: 2vw;
+    margin-bottom: 2vw;
+    padding: 1.2vw;
+    color: #e5cfbc;
+    filter:drop-shadow(9px 4px 4px rgba(0,0,0,0.23000000417232513));
+    border-radius: 10px;
+  }
+
+  .time{
+    width: 15vw;
+  }
+
+  .teacher{
+    width: 33vw;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+  }
+  
+  
