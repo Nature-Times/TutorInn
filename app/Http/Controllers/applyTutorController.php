@@ -24,7 +24,6 @@ class applyTutorController extends Controller
         $validated = $request->validate([
             'subject' => 'required|string',
             'name' => 'required|string|max:255',
-            'cv' =>  'required|file|mimes:pdf,jpeg,png,jpg|max:2048',
         ]);
 
         $exists = Tutor::where('name', $request->name)
@@ -37,7 +36,6 @@ class applyTutorController extends Controller
 
         $user = Mahasiswa::where('name', $request->input('name'))->first();
         $tutor = new Tutor();
-        //$selectedChoice = $validated['subject'];
         $tutor->name = $validated['name'];
         $tutor->email = $user->email;
         $tutor->subject = $validated['subject'];
@@ -54,7 +52,6 @@ class applyTutorController extends Controller
         
         session(['subject' => $subject]);
         return redirect()->route('quiz');
-        #return view('quiz', compact('user', 'questions'));
     }
 
     public function showQuiz()
