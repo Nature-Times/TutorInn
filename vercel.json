@@ -28,10 +28,10 @@
         "SESSION_DRIVER": "cookie",
 
         "DB_CONNECTION":"mysql",
-        "DB_HOST":"localhost",
-        "DB_PORT":"3306",
-        "DB_DATABASE":"tutorinn",
-        "DB_USERNAME":"root",
-        "DB_PASSWORD":""
+        "DB_HOST":"0e5l0.h.filess.io",
+        "DB_PORT":"3307",
+        "DB_DATABASE":"TutorInn_toohimself",
+        "DB_USERNAME":"TutorInn_toohimself",
+        "DB_PASSWORD":"d0a19cb2224adcf9b9d73b1487bc367444ceaca5"
     }
 }
