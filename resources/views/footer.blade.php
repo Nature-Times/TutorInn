@@ -14,55 +14,53 @@
     <div class="footer py-3" style="background-color: #9c5d28 !important;"> 
         <div class="container-fluid">
             <div class="row justify-content-between align-items-center">
-                <!-- Logo Section -->
+                
                 <div class="col-md-3 text-center">
-                    <img src="/Element/Footer Elements/TutorInnFooter.png" 
+                    <img src="{{asset("Element/Footer Elements/TutorInnFooter.png")}}" 
                          alt="TutorInn Logo" 
                          class="img-fluid mb-2">
                 </div>
 
-                <!-- Contact Section -->
                 <div class="col-md-3 text-center">
                     <p class="fw-bold fs-5 mb-3"style="color: #f1dec9; font-family: 'Kameron'; font-size: 2vw;">Contact Us</p>
                     <div class="d-flex justify-content-center">
-                        <img src="/Element/Footer Elements/CP.png" 
+                        <img src="{{asset("Element/Footer Elements/CP.png")}}" 
                              alt="CP Icon" 
                              class="footer-icon me-2">
-                        <img src="/Element/Footer Elements/Call.png" 
+                        <img src="{{asset("Element/Footer Elements/Call.png")}}" 
                              alt="Call Icon" 
                              class="footer-icon">
                     </div>
                 </div>
 
-                <!-- Location Section -->
                 <div class="col-md-3 text-center d-flex flex-column align-items-center">
                     <p class="fw-bold fs-5 mb-3" style="color: white; font-family: 'Kameron'; font-size: 2vw;">Location</p>
-                    <img src="/Element/Footer Elements/Location.png" 
+                    <img src="{{asset("Element/Footer Elements/Location.png")}}" 
                          alt="Location Icon" 
                          class="footer-icon location-icon"
                          style="background-color: orange; border-radius: 50%; margin: 1vw 0.5vw; height: 4.5vw; width: 4.5vw;">
                 </div>
-                <!-- Social Media Section -->
+                
                 <div class="col-md-3 text-center">
                     <p class="fw-bold fs-5 mb-3" style="color: white; font-family: 'Kameron'; font-size: 2vw;">Social Media</p>
                     <div class="d-flex justify-content-center">
-                        <img src="/Element/Footer Elements/InstaFooter.png" 
+                        <img src="{{asset("Element/Footer Elements/InstaFooter.png")}}" 
                              alt="Instagram Icon" 
                              class="footer-icon social-icon me-2"
                              style="background-color: orange; border-radius: 50%; margin: 1vw 0.5vw; height: 4vw; width: 4vw;">
-                        <img src="/Element/Footer Elements/FacebookFooter.png" 
+                        <img src="{{asset("Element/Footer Elements/FacebookFooter.png")}}" 
                              alt="Facebook Icon" 
                              class="footer-icon social-icon me-2"
                              style="background-color: orange; border-radius: 50%; margin: 1vw 0.5vw; height: 4vw; width: 4vw;">
-                        <img src="/Element/Footer Elements/YoutubeFooter.png" 
+                        <img src="{{asset("Element/Footer Elements/YoutubeFooter.png")}}" 
                              alt="YouTube Icon" 
                              class="footer-icon social-icon me-2"
                              style="background-color: orange; border-radius: 50%; margin: 1vw 0.5vw; height: 4vw; width: 4vw;">
-                        <img src="/Element/Footer Elements/WhatsappFooter.png" 
+                        <img src="{{asset("Element/Footer Elements/WhatsappFooter.png")}}" 
                              alt="WhatsApp Icon" 
                              class="footer-icon social-icon me-2"
                              style="background-color: orange; border-radius: 50%; margin: 1vw 0.5vw; height: 4vw; width: 4vw;">
-                        <img src="/Element/Footer Elements/TiktokFooter.png" 
+                        <img src="{{asset("Element/Footer Elements/TiktokFooter.png")}}" 
                              alt="TikTok Icon" 
                              class="footer-icon social-icon"
                              style="background-color: orange; border-radius: 50%; margin: 1vw 0.5vw; height: 4vw; width: 4vw;">
