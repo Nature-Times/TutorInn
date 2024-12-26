@@ -19,7 +19,7 @@
             <center><h1>Resume of {{ $tutor->name }}</h1></center>
             <center>
             <div class="cvBox">
-                <center><img src="{{ asset('storage/' . $tutor->cv)}}" class="iconProfile"></center>
+                <center><img src="{{ asset('Element/exampleCV.png')}}" class="iconProfile"></center>
             </div>
             </center>
         </div>
