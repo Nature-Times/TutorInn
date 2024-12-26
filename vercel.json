@@ -8,10 +8,6 @@
     
     "routes": [
         {
-            "src": "/(.*)",
-            "dest": "/api/index.php"
-        },
-        {
             "src": "/Element/(.*)",
             "dest": "public/Element/"
         },
@@ -22,6 +18,10 @@
         {
             "src": "/js/(.*)",
             "dest": "public/js/"
+        },
+        {
+            "src": "/(.*)",
+            "dest": "/api/index.php"
         }
     ],
     "env": {
