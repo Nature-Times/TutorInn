@@ -13,10 +13,8 @@ class ProfileController extends Controller
 {
     public function showProfile()
     {
-        // Get the currently authenticated user
         $user = Auth::user()->load('phones');
 
-        // Pass the user data to the view
         return view('profile', compact('user'));
     }
 
