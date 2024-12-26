@@ -37,18 +37,11 @@ class applyTutorController extends Controller
 
         $user = Mahasiswa::where('name', $request->input('name'))->first();
         $tutor = new Tutor();
-        //$selectedChoice = $validated['subject'];
         $tutor->name = $validated['name'];
         $tutor->email = $user->email;
         $tutor->subject = $validated['subject'];
         $tutor->phone = $user->phones->phoneNum;
         $subject = $validated['subject'];
-
-        if ($request->hasFile('cv')) {
-            $file = $request->file('cv');
-            $filePath = $file->store('cv', 'public');
-            $tutor->cv = $filePath;
-        }
         $tutor->save();
 
         $test = new Test();
@@ -59,7 +52,6 @@ class applyTutorController extends Controller
         
         session(['subject' => $subject]);
         return redirect()->route('quiz');
-        #return view('quiz', compact('user', 'questions'));
     }
 
     public function showQuiz()
@@ -88,13 +80,6 @@ class applyTutorController extends Controller
 
         $user = Auth::user()->load('phones');
         $test = Test::where('name', $user->name)->first();
-
-        if ($request->hasFile('video')) {
-            $file = $request->file('video');
-            $filePath = $file->store('video', 'public');
-            $test->video = $filePath;
-            $test->save();
-        }
 
         return redirect()->route('homepage')->with('success', 'You are now registered as a tutor!');
     }
