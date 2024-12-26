@@ -15,7 +15,7 @@
             window.location.href = "/homepage";
         }, 4000); // Redirect after 4 seconds (4000 milliseconds)
     </script>
-
+    <br><br>
     <style>
         body {
             background-color: #fffbe9;
