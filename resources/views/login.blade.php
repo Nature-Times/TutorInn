@@ -128,7 +128,7 @@
   <body>
     <div class="containerBox">
       <div class="container">
-        <center><img src="./Element/logo.png" alt="" /></center>
+        <center><img src="{/Element/logo.png}" alt="" /></center>
         <div class="box">
           <h1 class="loginPLS">Login</h1>
           <div class="input">
