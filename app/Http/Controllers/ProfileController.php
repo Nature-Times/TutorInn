@@ -30,7 +30,7 @@ class ProfileController extends Controller
             'name' => 'required|string|max:255',
             'email' => 'required|email|max:255|unique:users,email,',
             'age' => 'required|integer',
-            'phone' => 'required|max:255',
+            'phone' => 'required|max:255'
         ]);
 
         $user = Auth::user()->load('phones');
