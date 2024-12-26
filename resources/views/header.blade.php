@@ -45,7 +45,7 @@
 
                
                 <div class="dropdown" style="margin-right: 2%;">
-                    <img src="{{ Auth::check() && Auth::user()->profilePicture ? asset('storage/' . Auth::user()->profilePicture) : asset("Element/profile Icon.png") }}" 
+                    <img src="{{ asset("Element/profile Icon.png") }}" 
                          class="rounded-circle shadow-sm dropdown-toggle" 
                          style="width: 3.5vw; height: 3.5vw; cursor: pointer;" 
                          id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
